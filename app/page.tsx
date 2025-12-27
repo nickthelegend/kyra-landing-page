@@ -85,15 +85,15 @@ export default function Home() {
       </div>
 
       <nav
-        className={`fixed left-0 right-0 top-0 z-50 flex items-center justify-between px-6 py-6 transition-opacity duration-700 md:px-12 ${
-          isLoaded ? "opacity-100" : "opacity-0"
-        } bg-background/75 backdrop-blur-md border-b border-border`}
+        className={`fixed left-0 right-0 top-0 z-50 flex items-center justify-between px-6 py-6 transition-opacity duration-700 md:px-12 ${isLoaded ? "opacity-100" : "opacity-0"
+          } bg-[#020102]/75 backdrop-blur-md border-b border-border`}
       >
-        <a href="#home" className="flex items-center gap-2 transition-transform hover:scale-105">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/20 backdrop-blur-md transition-all duration-300 hover:scale-110 hover:bg-primary/30">
-            <span className="font-sans text-xl font-bold text-primary">K</span>
-          </div>
-          <span className="font-sans text-xl font-semibold tracking-tight text-foreground">KyraQuest</span>
+        <a href="#home" className="flex items-center transition-transform hover:scale-105">
+          <img
+            src="/icon-logo-text.png"
+            alt="KyraQuest"
+            className="h-12 w-auto object-contain transition-all duration-300 hover:scale-110"
+          />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

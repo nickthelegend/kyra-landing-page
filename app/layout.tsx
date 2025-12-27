@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "KyraQuest | Turn the real world into a quest",
   description: "Launch quests, token drops, and treasure hunts across maps — powered by Web3.",
   generator: "v0.app",
+  icons: {
+    icon: "/icon-main.png",
+  },
 }
 
 export default function RootLayout({
